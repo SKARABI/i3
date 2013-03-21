@@ -159,3 +159,4 @@ bar {
 exec /usr/bin/gnome-settings-daemon &
 exec_always xmodmap ~/.xmodmap &
 exec_always synclient TouchpadOff=1 &
+exec_always ~/.i3/monitorsetup.sh
